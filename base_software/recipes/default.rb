@@ -9,6 +9,7 @@
 
 include_recipe "windows"
 
+
 windows_package 'Atom' do
   source 'https://atom-installer.github.com/v1.20.1/AtomSetup-x64.exe?s=1505769323&ext=.exe'
   options '-ms'
@@ -20,10 +21,6 @@ windows_package 'Steam' do
   source 'https://steamcdn-a.akamaihd.net/client/installer/SteamSetup.exe'
   action :install
 end
-
-
-
-
 
 #windows_package 'RocketDock' do
   #source 'https://files.punklabs.com/RocketDock/RocketDock-v1.3.5.exe'
