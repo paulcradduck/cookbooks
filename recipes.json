@@ -1,6 +1,0 @@
-# use - chef-solo -c solo.rb -j recipes.json
-{
-  "run_list": [
-    "recipe[chrome]",
-    "recipe[base_software]"
-    ] }
