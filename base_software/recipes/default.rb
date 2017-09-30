@@ -21,9 +21,13 @@ windows_package 'Steam' do
   action :install
 end
 
-windows_package 'RocketDock' do
-  source 'https://files.punklabs.com/RocketDock/RocketDock-v1.3.5.exe'
-  options '-ms'
-  installer_type :custom
-  action :install
-end
+
+
+
+
+#windows_package 'RocketDock' do
+  #source 'https://files.punklabs.com/RocketDock/RocketDock-v1.3.5.exe'
+  #options '-ms'
+  #installer_type :custom
+  #action :install
+#end
